@@ -6,6 +6,6 @@ import (
 
 func LoadAssets(app *echo.Echo) {
 	//Load asset
-	app.Static("static", "repository/assets")
+	app.Static("/static", "/.repository/assets")
 
 }
